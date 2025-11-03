@@ -8,15 +8,15 @@ install:
 
 train:
 	@echo "Running training script..."
-	$(PYTHON) -m src.nto_baseline.train
+	$(PYTHON) -m src.baseline.train
 
 predict:
 	@echo "Running prediction script..."
-	$(PYTHON) -m src.nto_baseline.predict
+	$(PYTHON) -m src.baseline.predict
 
 validate:
 	@echo "Running validation script..."
-	$(PYTHON) -m src.nto_baseline.validate
+	$(PYTHON) -m src.baseline.validate
 
 run: train predict validate
 	@echo "Full pipeline executed successfully."

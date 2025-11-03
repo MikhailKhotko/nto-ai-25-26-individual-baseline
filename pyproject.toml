@@ -38,7 +38,6 @@ select = [
     "F", # pyflakes: Detects undefined or unused variables
     "W", # pycodestyle: Additional style warnings
     "I", # isort: Ensures imports are properly sorted
-    #    "D",     # pydocstyle: Checks docstring style
     "UP",  # pyupgrade: Modernizes code to use newer Python features
     "B",   # flake8-bugbear: Highlights common bugs and bad practices
     "C4",  # flake8-comprehensions: Suggests improvements for comprehensions
